@@ -33,7 +33,7 @@ El escenario realiza el flujo de **crear usuario → obtener TOKEN → crear pro
 ```text
 src/test/java/
 ├── client/
-│   ├── IRequest.java        # Contrato para peticiones HTTP
+│   ├── IRequest.java        # Para peticiones HTTP
 │   ├── RequestInfo.java     # Datos de cada solicitud
 │   ├── RequestGet.java      # Solicitudes GET
 │   ├── RequestPost.java     # Solicitudes POST
@@ -62,9 +62,6 @@ Esta organización separa las solicitudes HTTP, la configuración y los pasos de
 3. Abrir el proyecto en **IntelliJ IDEA** o utilizar una terminal PowerShell.
 4. Permitir que Gradle descargue las dependencias la primera vez que se ejecute.
 
-**Documentación de la API:** http://todo.ly/ApiWiki/
-
-> No es necesario iniciar Appium ni conectar un teléfono Android: esta actividad prueba servicios REST, no una aplicación móvil.
 
 ## Cómo ejecutar la prueba (Windows / PowerShell)
 
